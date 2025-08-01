@@ -3,8 +3,10 @@ var num1 = parseInt(prompt('Digite sua primeira nota.'))
 var num2 = parseInt(prompt('Digite sua segunda nota.'))
 var nota = (num1 + num2) / 2
 
-if (nota >= 7) {
-    alert('Você foi aprovado!')
+if (nota <=6) {
+    alert('Reprovado!')
+} else if (nota >= 7 && nota <=9) {
+    alert('Aprovado!')
 } else {
-    alert('Você foi reprovado!')
+    alert('Execelente!')
 }
